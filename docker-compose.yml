@@ -4,7 +4,7 @@ services:
     image: node:16.13.2-alpine3.14
     container_name: node
     volumes:
-      - ./node/app:/app
+      - ./node/examples:/examples
     tty: true
     ports:
       - 3000:3000

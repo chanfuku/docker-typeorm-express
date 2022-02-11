@@ -7,7 +7,7 @@
 ```
 $docker-compose up -d
 $docker-compose exec node sh
-$cd app/
+$cd examples/basic-example
 $npm install
 $npm run start
 ```
