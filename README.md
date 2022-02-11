@@ -7,7 +7,12 @@
 ```
 $docker-compose up -d
 $docker-compose exec node sh
+
+// basic-example
 $cd examples/basic-example
+// openapi-express
+$cd examples/openapi-express
+
 $npm install
 $npm run start
 ```
